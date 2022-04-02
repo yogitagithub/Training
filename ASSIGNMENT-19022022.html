@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Assignment no.5</title>
+        <link rel="styleSheet" href="ASSIGNMENT-19022022.css">
+        <script src="ASSIGNMENT-19022022.js"></script>
+    </head>
+
+    <body>
+
+        <div class="reg">
+                <h1>Input Form</h1>
+        </div>
+
+        <div id="hide" style="display:block;" class="container">
+            <form>
+                
+                <div class="output">
+                    <label>Fullname:</label>
+                    <input id="user" type="text" placeholder="Enter fullname">
+                </div>
+                <br>
+
+                <div class="input">
+                    <label>Activities:</label>
+                    <input id="pswd" type="text" placeholder="Enter activities">
+                </div>
+                <br>
+
+                <div class="input">
+                    <label>Hobbies:</label>
+                    <input id="cpswd" type="text" placeholder="Enter hobbies">
+                </div>
+                <br>
+
+                <div class="input">
+                    <label>Interests:</label>
+                    <input id="yog" type="text" placeholder="Enter interests">
+                </div>
+                <br>
+
+                <div>
+                    <input type="button" value="Submit" class="pluto" onclick="hide_show() ; signUp()">
+                </div>
+                <br>
+
+            </form>
+        </div>
+
+        <div id="show" style="display:none;">
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Fullname</th>
+                        <th>Activities</th>
+                        <th>Hobbies</th>
+                        <th>Interests</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td id="print1"></td>
+                        <td id="print2"></td>
+                        <td id="print3"></td>
+                        <td id="print4"></td>
+                    </tr>
+                </tbody>
+        
+            </table>
+        </div>
+
+    </body>
+</html>        
+

@@ -1,0 +1,26 @@
+.pluto{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.reg{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.output{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.input{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px
+}

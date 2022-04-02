@@ -1,0 +1,47 @@
+.reg{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.output{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.input{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px
+}
+
+.pluto{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+}
+
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+td{
+    font-size: 25px;
+    font-weight: 400;
+}
