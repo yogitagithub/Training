@@ -1,0 +1,15 @@
+.mars{
+    border-style: double;
+    background-color: rgb(41, 230, 66);
+    height: 125px;
+    text-align: center;
+}
+
+.jupiter{
+    color: black;
+}
+
+.uranus{
+    font-size: 10px;
+    margin: -8px;
+}

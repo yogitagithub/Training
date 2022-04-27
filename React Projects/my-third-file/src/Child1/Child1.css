@@ -1,0 +1,11 @@
+.header{
+    height: 40px;
+    background-color: rgb(210, 240, 39);
+    text-align: left;
+    padding-top: 12px;
+}
+
+.tags{
+    color: black;
+    margin: 0 10px;
+}
