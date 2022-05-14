@@ -1,0 +1,34 @@
+.house{
+    position: absolute;
+    box-shadow: 0 20px 25px grey;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(238, 83, 83);
+    height: 290px;
+    border-radius: 30px;
+    border: 4px solid black;
+    padding: 7px 40px;
+    left: 36%;
+    top: 20%;
+}
+
+.mars{
+    font-size: 20px;
+}
+
+.moon{
+    font-size: 16px;
+}
+
+.create{
+    text-align: center;
+    margin: 50px 0;
+    color: red;
+}
+
+.message{
+    text-align: center;
+    margin: 50px 0;
+    color: green;
+}

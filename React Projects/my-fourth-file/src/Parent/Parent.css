@@ -1,0 +1,24 @@
+.uranus{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+}
+
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+td{
+    font-size: 25px;
+    font-weight: 400;
+}

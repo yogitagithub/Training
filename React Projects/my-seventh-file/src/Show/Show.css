@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    width: 110%;
+    margin: 45px auto;
+}
+
+table, th, td{
+    border: 2px solid white;
+    padding: 5px;
+}
+
+th{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+td{
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}

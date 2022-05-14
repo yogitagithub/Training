@@ -1,0 +1,63 @@
+.reg{
+    text-align: center;
+    padding-top: 0px;
+    color: rgb(6, 90, 48);
+    font-size: 20px;
+    margin-top: -33px;
+}
+
+.mani{
+    position: absolute;
+    box-shadow: 0 20px 25px grey;
+    margin: auto;
+    width: 367px;
+    text-align: center;
+    background-color: rgb(238, 83, 83);
+    height: 470px;
+    border-radius: 30px;
+    border: 6px solid black;
+    padding: 7px 40px;
+    left: 10%;
+    top: 15%;
+}
+
+.yog{
+    font-size: 20px;
+}
+
+.nut{
+    font-size: 16px;
+}
+
+.star{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    padding: 5px 40px;
+    left: 48%;
+    top: 20%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 45px auto;
+}
+
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+td{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+
