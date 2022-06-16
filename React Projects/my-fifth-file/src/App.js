@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-// import Pencil from './Sign Up/Sign Up';
-// import Pen from './Sign In/Sign In';
-// import String from './Navbar/Navbar';
+//import Pencil from './Sign Up/Sign Up';
+//import Pen from './Sign In/Sign In';
+//import String from './Navbar/Navbar';
 import Show from './Navigation/Navigation';
 import Register from './Home/Home';
 import User from './Admin/Admin';

@@ -1,0 +1,68 @@
+.saturn{
+    justify-content: center;
+    height: 590px;
+    background-color: rgb(162, 78, 241);
+    text-align: center;
+    padding-top: 12px;
+}
+
+.thirteen{
+    margin-left: 78%;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+.twentynine{
+    margin-top: 0%;
+    font-size: 40px;
+}
+
+.thirty{
+    margin-top: -1%;
+    font-size: 30px;
+}
+
+.thirtyone{
+    font-size: 1.3rem;
+    margin-left: 6%;
+}
+
+.thirtytwo{
+    width: 16%;
+    font-size: 1rem;
+    padding: 6px 4px;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+.thirtythree{
+    display: flexbox;
+    width: 13%;
+    font-size: 1.2rem;
+    margin: 8px 0;
+    padding: 4px 0;
+    background-color: rgb(230, 238, 119);
+    color: rgb(228, 57, 57);
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.thirtyfour{
+    display: flexbox;
+    width: 10%;
+    font-size: 1.2rem;
+    margin: 8px 0;
+    padding: 4px 0;
+    background-color: rgb(230, 238, 119);
+    color: rgb(228, 57, 57);
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 4%;
+}
+
+.thirtyfive{
+    margin-top: 4%;
+}

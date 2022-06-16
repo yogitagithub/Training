@@ -24,6 +24,9 @@ app.get('/', (req, res) => {
 
 app.get('/users', async (req, res) => {
 
+    // For query string parameters
+    //  console.log(req.query)
+    
     const collection = client.db("Training").collection("users");
     const result = await collection.find({"$and": [{age: { $lte:35}}, {age: { $gt: 28}}]}).limit(1).toArray()
     console.log(result)
@@ -39,6 +42,10 @@ app.get('/data', async (req, res) => {
         {username: 'Seema', city: 'Bhilai', age: 26}
      ]
     const tree = await collection.insertMany(get);
+
+    const query = {age: {$lte: 26 }}
+    const things = await collection.deleteMany(query);
+
 
      console.log(tree)
     res.send(tree)

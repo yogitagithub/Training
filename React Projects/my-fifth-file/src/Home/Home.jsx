@@ -18,7 +18,7 @@ function Register() {
         console.log(box)
     }
 
-    const diary =() => {
+    const diary = () => {
 
         if (box && isNaN(parseInt(box.age))) {
             setClick('Please enter a valid age')
